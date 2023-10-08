@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+		
+}
+  .style1{
+    
+    margin-top: 30px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.button1{
+    width: 100px;
+    height: 40px;
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/style.css') }}">
+
+  </head>
+  <body>
+    <div class="center">
+        
+      <h1>English to Punjabi Transliteration</h1>
+      <form action="/transliteration" method ='post'> 
+     
+      <h5 style="color: red;">{{error}}</h5>
+    <br><br>
+          
+          <textarea  name="text"  rows="8" cols="50" class="style1">
+          </textarea><br><br><br>
+  
+          <input type="submit" name="Submit" class="button1"><br><br><br>
+          
+      </form>
+     
+          <textarea  name="any_text" rows="8" cols="50" class="style1">{{result}}
+          </textarea><br><br><br>
+  
+  
+  </div>
+  </body>
+</html>
